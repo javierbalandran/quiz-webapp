@@ -1,0 +1,15 @@
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.deps.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.dev.json
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csprojAssemblyReference.cache
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfoInputs.cache
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfo.cs
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csproj.CoreCompileInputs.cache
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.genruntimeconfig.cache
