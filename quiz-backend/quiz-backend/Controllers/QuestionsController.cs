@@ -13,8 +13,9 @@ namespace quiz_backend.Controllers
     {
         // POST api/questions
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Models.Question question)
         {
+
         }
     }
 }
