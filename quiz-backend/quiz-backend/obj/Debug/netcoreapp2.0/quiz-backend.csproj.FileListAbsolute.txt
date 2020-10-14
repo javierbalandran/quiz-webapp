@@ -13,3 +13,18 @@ C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entit
 C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
 C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb
 C:\Users\javie_000\Documents\Development\LinkedInLearning\Angular ASP Core Entity Course\quiz\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.genruntimeconfig.cache
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.deps.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.dev.json
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csprojAssemblyReference.cache
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfoInputs.cache
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfo.cs
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csproj.CoreCompileInputs.cache
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\Users\jbn19\source\personal\quiz-webapp\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.genruntimeconfig.cache
