@@ -22,10 +22,12 @@ namespace quiz_backend.Controllers
         [HttpGet]
         public IEnumerable<Models.Question> Get()
         {
-            return new Models.Question[] { 
-                new Models.Question() { Text = "hello" },
-                new Models.Question() { Text = "world" }
-            };
+            return context.Questions;
+            //return new Models.Question[] { 
+
+            //    new Models.Question() { Text = "hello" },
+            //    new Models.Question() { Text = "world" }
+            //};
         }
 
         // POST api/questions
@@ -34,7 +36,6 @@ namespace quiz_backend.Controllers
         {
             context.Questions.Add(question);
             context.SaveChanges();
-            // testing
         }
     }
 }
