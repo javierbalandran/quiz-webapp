@@ -16,9 +16,4 @@ export class QuestionsComponent {
             this.questions = res;
         })
     }
-
-    post(question) {
-        console.log("Post " + question);
-        this.api.postQuestion(question);
-    };
 }

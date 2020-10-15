@@ -10,6 +10,10 @@ export class QuestionComponent {
 
     constructor(private api: ApiService) {}
 
+    ngOnInit() {
+        this.api.questionSelected.subscribe(question => this.question = question);
+    }
+
     post(question) {
         console.log("Post " + question);
         this.api.postQuestion(question);
