@@ -6,8 +6,8 @@ import { QuestionComponent } from './question.component';
   template: `
     <mat-toolbar>
         <button mat-button routerLink="/">Quiz</button>
-        <button mat-button routerLink="/question">Question</button>
-        <button mat-button routerLink="/questions">Question List</button>
+        <span class="toolbar-spacer"></span>
+        <button style="position: absolute; right: 0; margin-right: 15px;" mat-button routerLink="/register">Register</button>
     </mat-toolbar>
   `
 })
