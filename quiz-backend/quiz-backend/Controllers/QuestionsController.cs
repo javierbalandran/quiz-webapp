@@ -24,11 +24,13 @@ namespace quiz_backend.Controllers
         public IEnumerable<Models.Question> Get()
         {
             return context.Questions;
-            //return new Models.Question[] { 
+        }
 
-            //    new Models.Question() { Text = "hello" },
-            //    new Models.Question() { Text = "world" }
-            //};
+        // GET api/questions
+        [HttpGet("{quizId}")]
+        public IEnumerable<Models.Question> Get([FromRoute] int quizId)
+        {
+            return context.Questions.Where(q => q.QuizId == quizId);
         }
 
         // POST api/questions
