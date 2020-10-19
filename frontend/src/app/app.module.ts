@@ -11,8 +11,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question.component';
 import { ApiService } from './api.service';
@@ -21,6 +19,7 @@ import { HomeComponent } from './home.component';
 import { NavComponent } from './nav.component';
 import { QuizComponent } from './quiz.component';
 import { QuizzesComponent } from './quizzes.component';
+import { RegisterComponent } from './register.component';
 
 const routes = [
   { path: '', component: HomeComponent },
@@ -38,13 +37,13 @@ const routes = [
     HomeComponent,
     NavComponent,
     QuizComponent,
-    QuizzesComponent
+    QuizzesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes),
     MatToolbarModule,
