@@ -12,7 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatRadioModule } from '@angular/material/radio';
-
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question.component';
@@ -28,6 +28,7 @@ import { AuthService } from './auth.service';
 import { AuthInterceptor } from './auth.interceptor';
 import { PlayComponent } from './play.component';
 import { PlayQuizComponent } from './playQuiz.component';
+import { FinishedComponent } from './finished.component';
 
 const routes = [
   { path: '', component: HomeComponent },
@@ -52,7 +53,8 @@ const routes = [
     RegisterComponent,
     LoginComponent,
     PlayComponent,
-    PlayQuizComponent
+    PlayQuizComponent,
+    FinishedComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +69,8 @@ const routes = [
     MatButtonModule,
     MatListModule,
     MatExpansionModule,
-    MatRadioModule
+    MatRadioModule,
+    MatDialogModule
   ],
   providers: [ApiService, AuthService, {
     provide: HTTP_INTERCEPTORS,
