@@ -11,6 +11,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatRadioModule } from '@angular/material/radio';
+
 
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question.component';
@@ -64,7 +66,8 @@ const routes = [
     MatCardModule,
     MatButtonModule,
     MatListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatRadioModule
   ],
   providers: [ApiService, AuthService, {
     provide: HTTP_INTERCEPTORS,

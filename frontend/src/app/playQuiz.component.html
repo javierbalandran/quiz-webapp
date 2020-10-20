@@ -1,7 +1,7 @@
 <mat-card>
     <mat-card-content>
-        <mat-expansion-panel *ngFor="let question of questions; let i = index" [expanded]="step === i"
-            (opened)="setStep(i)">
+        <mat-expansion-panel *ngFor="let question of questions; 
+            let i = index" [expanded]="step === i" (opened)="setStep(i)">
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     {{ question.text }}
@@ -9,7 +9,11 @@
                 <mat-panel-description>
                 </mat-panel-description>
             </mat-expansion-panel-header>
-            {{ question.correctAnswer }}
+            <mat-radio-group [(ngModel)]="question.selectedAnswer">
+                <mat-radio-button class="fullWidth" *ngFor="let answer of question.answers" [value]="answer">
+                    {{answer}}
+                </mat-radio-button>
+            </mat-radio-group>
             <mat-action-row>
                 <button *ngIf="i > 0" mat-button color="warn" (click)="prevStep()">Previous</button>
                 <button *ngIf="questions.length - 1 > i" mat-button color="primary" (click)="nextStep()">Next</button>

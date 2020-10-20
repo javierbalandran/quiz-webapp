@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { ApiService } from './api.service';
 import { ActivatedRoute } from '@angular/router';
 
@@ -14,9 +14,15 @@ export class PlayQuizComponent {
 
     ngOnInit() {
         this.quizId = this.route.snapshot.paramMap.get('quizId');
+
         this.api.getQuestions(this.quizId).subscribe(res => {
             this.questions = res;
-            console.log(`questions length ${this.questions.length}`)
+            
+            this.questions.forEach(q => {
+                q.answers = [ q.correctAnswer, q.answer1, q.answer2, q.answer3 ];
+                console.log(q.answers);
+                shuffle(q.answers);
+            });
         })
         
     }
@@ -33,5 +39,12 @@ export class PlayQuizComponent {
 
     prevStep() {
         this.step--;
+    }
+}
+
+function shuffle(a) {
+    for(let i = a.length; i; i--) {
+        let j = Math.floor(Math.random() * i);
+        [a[i-j], a[j]] = [a[j], a[i - 1]];
     }
 }
