@@ -1,0 +1,7 @@
+<mat-toolbar>
+    <button mat-button routerLink="/">Quiz</button>
+    <span class="toolbar-right"></span>
+    <button *ngIf="!auth.isAuthenticated" mat-button routerLink="/register">Register</button>
+    <button *ngIf="!auth.isAuthenticated" mat-button routerLink="/login">Login</button>
+    <button *ngIf="auth.isAuthenticated" mat-button (click)="auth.logout()">Logout</button>
+</mat-toolbar>
